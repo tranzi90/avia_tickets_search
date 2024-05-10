@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:dio/dio.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'core/router/router.dart';
 
 class App extends StatefulWidget {
   final SharedPreferences sharedPreferences;
